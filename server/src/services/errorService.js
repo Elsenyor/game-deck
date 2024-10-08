@@ -164,8 +164,6 @@ export const notStaffError = () => {
 	};
 };
 
-// Añadir error personalizado para recoverypassCode erroneo.
-
 export const recoveryCodeError = () => {
 	throw {
 		httpStatus: 400,
