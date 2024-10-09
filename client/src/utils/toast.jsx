@@ -18,15 +18,15 @@ const ToastConfig = () => (
 );
 
 const showToast = (message, type = "default") => {
-    toast(message, {
-        position: "bottom-right",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        type: type,
+	toast(message, {
+		position: "bottom-right",
+		autoClose: 3000,
+		hideProgressBar: false,
+		closeOnClick: true,
+		pauseOnHover: true,
+		draggable: true,
+		progress: undefined,
+		type: type,
 		theme: "dark",
 		transition: Bounce,
 	});
